@@ -41,6 +41,7 @@ public class AttendanceHistoryController {
 
 
                 System.out.println("hiiii 1");
+                System.out.println("hiiii 2");
 
 
         // Check if username is null
