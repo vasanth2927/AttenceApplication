@@ -29,6 +29,8 @@ public class EmployeeService {
 	}
 
 	public Iterable<Employee> listemployee() {
+	    System.out.println("hiiiiii");
+
 		return emprep.findAll();
 
 	}

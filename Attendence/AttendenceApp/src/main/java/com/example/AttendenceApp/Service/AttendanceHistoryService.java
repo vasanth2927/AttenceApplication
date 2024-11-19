@@ -13,9 +13,11 @@ public class AttendanceHistoryService {
 
     @Autowired
     private EmployeeAttendanceRepository employeeAttendanceRepository;
-    System.out.println("hiiiiii");
 
     public List<EmployeeAttendance> getAttendanceHistoryByEmployeeId(Long employeeId) {
         return employeeAttendanceRepository.findByEmployee_EmployeeIdOrderByAttendanceDateAsc(employeeId);
+        
+        
+        
     }
 }
