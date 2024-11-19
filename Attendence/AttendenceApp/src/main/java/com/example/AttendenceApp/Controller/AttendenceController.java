@@ -55,7 +55,7 @@ public class AttendenceController {
 	    String viewName = attendenceService.authenticateAndRedirect(loginRequest);
 
 	    ModelAndView modelAndView = new ModelAndView();
-
+System.out.println("Attendencecontroller");
 	    if ("deshbord".equals(viewName)) {
 	        modelAndView.setViewName("deshbord");
 	    } 
