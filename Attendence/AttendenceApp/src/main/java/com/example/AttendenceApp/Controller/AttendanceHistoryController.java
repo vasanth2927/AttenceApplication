@@ -38,6 +38,9 @@ public class AttendanceHistoryController {
        
         System.out.println("hiiii");
 
+                System.out.println("hiiii 1");
+
+
         // Check if username is null
         if (username == null) {
             System.out.println("Username is null. User may not be logged in.");
